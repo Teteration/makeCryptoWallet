@@ -1,5 +1,4 @@
 
-```markdown
 # Ethereum Wallet Creator
 
 This simple Node.js script allows you to generate a new Ethereum wallet, including its public address, private key, and mnemonic phrase.

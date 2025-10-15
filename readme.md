@@ -1,3 +1,4 @@
+![alt text](image.png)
 
 # Ethereum Wallet Creator
 

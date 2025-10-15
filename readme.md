@@ -41,3 +41,7 @@ node createWallet.js
 ```
 
 ## Output Example
+
+    📄 Public Address: 0x31862Af875FD6cA85Ad4768589faD6B7D2577747
+    🤫 Private Key: 0xe9e2d024c6740a90b360f1ffee10d93a112794d72278a3ac60633e0ef93d8afe
+    🔑 Mnemonic Phrase: favorite south pen loop shrimp flower mask forget muscle scout myth ask

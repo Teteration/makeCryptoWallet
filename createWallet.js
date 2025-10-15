@@ -2,24 +2,24 @@ const ethers = require('ethers');
 
 async function createNewWallet() {
     try {
-        console.log("🚀 در حال ساخت یک کیف پول جدید اتریوم...");
+        console.log("🚀 Creating a new Ethereum wallet...");
 
         const wallet = ethers.Wallet.createRandom();
 
-        console.log("\n✅ کیف پول با موفقیت ساخته شد!");
+        console.log("\n✅ Wallet created successfully!");
         console.log("==================================================================");
         
-        console.log(`📄 آدرس عمومی (Public Address): ${wallet.address}`);
-        console.log(`🤫 کلید خصوصی (Private Key): ${wallet.privateKey}`);
+        console.log(`📄 Public Address: ${wallet.address}`);
+        console.log(`🤫 Private Key: ${wallet.privateKey}`);
         
-        console.log(`🔑 کلمات بازیابی (Mnemonic Phrase): ${wallet.mnemonic.phrase}`);
+        console.log(`🔑 Mnemonic Phrase: ${wallet.mnemonic.phrase}`);
         
         console.log("==================================================================");
-        console.log("\n⚠️ هشدار جدی: کلید خصوصی و کلمات بازیابی خود را در مکانی امن و آفلاین ذخیره کنید.");
-        console.log("هر کسی با دسترسی به این اطلاعات، کنترل کامل دارایی‌های شما را خواهد داشت.");
+        console.log("\n⚠️ Serious Warning: Store your private key and mnemonic phrase in a secure, offline location.");
+        console.log("Anyone with access to this information will have full control over your assets.");
 
     } catch (error) {
-        console.error("خطا در ساخت کیف پول:", error);
+        console.error("Error creating wallet:", error);
     }
 }
 
